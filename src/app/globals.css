@@ -32,14 +32,16 @@
 @keyframes circle {
   0% {
       transform: rotate(140deg) 
-          translateX(250px) rotate(0deg);
+          translateX(250px) rotate(20deg);
   }
 
   100% {
       transform: rotate(175deg) 
-          translateX(250px) rotate(90deg);
+          translateX(250px) rotate(0deg);
   }
 }
+
+
 
 
 .animate-circle1{
@@ -55,7 +57,7 @@
 
   100% {
       transform: rotate(215deg) 
-          translateX(250px) rotate(90deg);
+          translateX(250px) rotate(0deg);
   }
 }
 
@@ -73,9 +75,89 @@
 
   100% {
       transform: rotate(60deg) 
-          translateX(250px) rotate(90deg);
+          translateX(250px) rotate(0deg);
   }
 }
+
+
+.animate-circle3{
+  animation: circle3 0.5s 1 linear forwards;
+  transform-origin: 50% 50%;
+}
+
+@keyframes circle3 {
+  0% {
+      transform: rotate(140deg) 
+          translateX(200px) rotate(0deg);
+  }
+
+  100% {
+      transform: rotate(175deg) 
+          translateX(200px) rotate(0deg);
+  }
+}
+
+
+
+.animate-circle7{
+  animation: circle7 0.5s 1 linear forwards;
+  transform-origin: 50% 50%;
+}
+
+@keyframes circle7 {
+  0% {
+      transform: rotate(150deg) 
+          translateX(200px) rotate(0deg);
+  }
+
+  100% {
+      transform: rotate(210deg) 
+          translateX(200px) rotate(0deg);
+  }
+}
+
+
+
+.animate-circle8{
+  animation: circle8 0.5s 1 linear forwards;
+  transform-origin: 50% 50%;
+}
+
+@keyframes circle8 {
+  0% {
+      transform: rotate(140deg) 
+          translateX(200px) rotate(0deg);
+  }
+
+  100% {
+      transform: rotate(80deg) 
+          translateX(200px) rotate(0deg);
+  }
+}
+
+
+
+
+.animate-circle9{
+  animation: circle9 0.5s 1 linear forwards;
+  transform-origin: 50% 50%;
+}
+
+@keyframes circle9 {
+  0% {
+      transform: rotate(140deg) 
+          translateX(200px) rotate(0deg);
+  }
+
+  100% {
+      transform: rotate(50deg) 
+          translateX(200px) rotate(0deg);
+  }
+}
+
+
+
+
 
 .animate-circle4{
   animation: circle4 0.5s 1 linear forwards;
@@ -89,12 +171,68 @@
   }
 
   100% {
-      transform: rotate(-60deg) 
-          translateX(125px) rotate(90deg);
+      transform: rotate(40deg) 
+          translateX(125px) rotate(0deg);
   }
 }
 
 
+
+.animate-circle5{
+  animation: circle5 0.5s 1 linear forwards;
+  transform-origin: 50% 50%;
+}
+
+@keyframes circle5 {
+  0% {
+      transform: rotate(20deg) 
+          translateX(125px) rotate(0deg);
+  }
+
+  100% {
+      transform: rotate(120deg) 
+          translateX(125px) rotate(0deg);
+  }
+}
+
+
+
+.animate-circle6{
+  animation: circle6 0.5s 1 linear forwards;
+  transform-origin: 50% 50%;
+}
+
+@keyframes circle6 {
+  0% {
+      transform: rotate(40deg) 
+          translateX(125px) rotate(0deg);
+  }
+
+  100% {
+      transform: rotate(180deg) 
+          translateX(125px) rotate(0deg);
+  }
+}
+
+
+@keyframes expandingCircle {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+.circle {
+  width: 12px;
+  height: 12px;
+  background-color: #b3b3b3; /* Replace with your desired circle color */
+  border-radius: 50%;
+  animation: expandingCircle 2s linear infinite;
+}
 
 
 .main-div:hover .revolving-div {
@@ -103,6 +241,7 @@
 .animate-slide{
   animation: slide 15s linear infinite;
 }
+
 
 
 

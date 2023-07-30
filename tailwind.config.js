@@ -10,6 +10,7 @@ module.exports = {
       sm: "660px", // Small devices (e.g., phones)
       md: "768px", // Medium devices (e.g., tablets)
       lmd: "976px",
+      lmd2: "1086px",
       lg: "1165px", // Large devices (e.g., laptops)
       xl: "1280px", // Extra-large devices (e.g., desktops)
       "2xl": "1536px",
