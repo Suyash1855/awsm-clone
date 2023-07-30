@@ -47,7 +47,7 @@ function About() {
             </p>
             <p className="my-[20px]">Some Number About Us</p>
             <div className="grid grid-cols-2 gap-2 grid-row-2 w-full  ">
-              <div className="rounded-3xl relative z-[0] w-[180px]  xl:w-[270px] p-4 pt-2 overflow-hidden bg-[#F2F0F0] xl:h-[180px] h-[140px]">
+              <div className="rounded-3xl relative z-[0] xsm:w-[180px]  xl:w-[270px] w-[166px] h-[140px]  p-4 pt-2 overflow-hidden bg-[#F2F0F0] xl:h-[180px]  xsm:h-[140px]">
                 <h1 className="text-[30px] xl:text-[45px] z-[2] font-bold">
                   +300
                 </h1>
@@ -69,7 +69,7 @@ function About() {
                   </video>
                 </div>
               </div>
-              <div className="rounded-3xl relative w-[180px] xl:w-[270px] overflow-hidden p-4 pt-2 bg-[#F2F0F0]  xl:h-[180px] h-[140px]">
+              <div className="rounded-3xl relative xsm:w-[180px] w-[165px] h-[140px] xl:w-[270px] overflow-hidden p-4 pt-2 bg-[#F2F0F0]  xl:h-[180px] xsm:h-[140px]">
                 <h1 className="text-[30px] xl:text-[45px] font-bold">100K</h1>
                 <p className="text-[12px]  absolute z-[2] w-[140px] text-[#000]">
                   We’ve gathered dozens of reviews from the clients and + 100k
@@ -89,7 +89,7 @@ function About() {
                   </video>
                 </div>
               </div>
-              <div className="rounded-3xl relative w-[180px] xl:w-[270px] p-4 pt-2 overflow-hidden bg-[#F2F0F0] xl:h-[180px] h-[140px]">
+              <div className="rounded-3xl relative xsm:w-[180px] w-[165px] h-[140px] xl:w-[270px] p-4 pt-2 overflow-hidden bg-[#F2F0F0] xl:h-[180px] xsm:h-[140px]">
                 <h1 className="text-[30px] xl:text-[45px] font-bold">+10</h1>
                 <p className="text-[13px] absolute  w-[160px] z-[2] text-[#000]">
                   Years of experience
@@ -109,7 +109,7 @@ function About() {
                   </video>
                 </div>
               </div>
-              <div className="rounded-3xl relative  w-[180px] xl:w-[270px] p-4 pt-2  overflow-hidden  bg-[#F2F0F0]  xl:h-[180px] h-[140px]">
+              <div className="rounded-3xl relative  xsm:w-[180px] w-[165px] h-[140px] xl:w-[270px] p-4 pt-2  overflow-hidden  bg-[#F2F0F0]  xl:h-[180px] xsm:h-[140px]">
                 <h1 className="text-[30px] xl:text-[45px] font-bold">+40 </h1>
                 <p className="text-[13px]  absolute  w-[140px] z-[2] text-[#000]">
                   Team members all over the world
